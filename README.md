@@ -1,5 +1,7 @@
 # MealApp - CMLABS Frontend Pre-assessment Test
 
+**Live Demo:** [https://cmlabs-frontend-freelance-test.vercel.app](https://cmlabs-frontend-freelance-test.vercel.app)
+
 A meal and ingredient explorer web application built with **Next.js 15**, **TypeScript**, and **Tailwind CSS v4**. Browse foods, discover meals from around the world, and view detailed recipes with video tutorials.
 
 ## Tech Stack
