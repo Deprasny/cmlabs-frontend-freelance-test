@@ -19,7 +19,7 @@ export function IngredientCard({ name, description, priority }: IngredientCardPr
   return (
     <Link
       href={`/ingredients/${encodeURIComponent(name)}`}
-      className="card-shine group relative aspect-[4/3] overflow-hidden rounded-2xl shadow-sm transition-all duration-300 hover:shadow-xl hover:-translate-y-1"
+      className="card-shine group relative aspect-[4/3] overflow-hidden rounded-2xl border border-transparent shadow-sm transition-all duration-300 hover:shadow-xl hover:-translate-y-1 dark:border-gray-700 dark:bg-gray-800"
     >
       <Image
         src={imgError ? "/placeholder-food.svg" : getIngredientImageUrl(name)}

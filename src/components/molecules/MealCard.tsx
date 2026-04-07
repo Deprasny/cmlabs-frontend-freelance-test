@@ -16,7 +16,7 @@ export function MealCard({ name, thumbnail, href }: MealCardProps) {
   return (
     <Link
       href={href}
-      className="card-shine group relative aspect-[4/3] overflow-hidden rounded-2xl shadow-sm transition-all duration-300 hover:shadow-xl hover:-translate-y-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
+      className="card-shine group relative aspect-[4/3] overflow-hidden rounded-2xl border border-transparent shadow-sm transition-all duration-300 hover:shadow-xl hover:-translate-y-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary dark:border-gray-700 dark:bg-gray-800"
     >
       <Image
         src={imgError ? "/placeholder-food.svg" : thumbnail}

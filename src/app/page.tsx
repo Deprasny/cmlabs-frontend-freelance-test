@@ -77,7 +77,7 @@ export default function HomePage() {
           <div className="flex flex-col items-center gap-4 sm:flex-row animate-slide-up" style={{ animationDelay: "0.3s" }}>
             <Link
               href="/ingredients"
-              className="group inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-primary to-accent px-8 py-3.5 text-sm font-bold text-white shadow-lg shadow-red-200 transition-all hover:shadow-xl hover:shadow-red-300 hover:-translate-y-0.5 dark:shadow-red-900/30"
+              className="group inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-primary to-accent px-8 py-3.5 text-sm font-bold text-white shadow-md transition-all hover:brightness-110 hover:-translate-y-0.5 hover:shadow-lg"
             >
               Start Exploring
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
